@@ -1,0 +1,110 @@
+/* Définition de la police d'écriture */
+
+@font-face {
+    font-family: "et-book";
+    src: url("https://edwardtufte.github.io/et-book/et-book/et-book-roman-line-figures/et-book-roman-line-figures.eot");
+    src: url("https://edwardtufte.github.io/et-book/et-book/et-book-roman-line-figures/et-book-roman-line-figures.eot?#iefix") format("embedded-opentype"), url("https://edwardtufte.github.io/et-book/et-book/et-book-roman-line-figures/et-book-roman-line-figures.woff") format("woff"), url("https://edwardtufte.github.io/et-book/et-book/et-book-roman-line-figures/et-book-roman-line-figures.ttf") format("truetype"), url("https://edwardtufte.github.io/et-book/et-book/et-book-roman-line-figures/et-book-roman-line-figures.svg#etbookromanosf") format("svg");
+    font-weight: normal;
+    font-style: normal
+  }
+  
+  @font-face {
+    font-family: "et-book italic";
+    src: url("https://edwardtufte.github.io/et-book/et-book/et-book-display-italic-old-style-figures/et-book-display-italic-old-style-figures.eot");
+    src: url("https://edwardtufte.github.io/et-book/et-book/et-book-display-italic-old-style-figures/et-book-display-italic-old-style-figures.eot?#iefix") format("embedded-opentype"), url("https://edwardtufte.github.io/et-book/et-book/et-book-display-italic-old-style-figures/et-book-display-italic-old-style-figures.woff") format("woff"), url("https://edwardtufte.github.io/et-book/et-book/et-book-display-italic-old-style-figures/et-book-display-italic-old-style-figures.ttf") format("truetype"), url("https://edwardtufte.github.io/et-book/et-book/et-book-display-italic-old-style-figures/et-book-display-italic-old-style-figures.svg#etbookromanosf") format("svg");
+    font-weight: normal;
+    font-style: italic
+  }
+  
+  @font-face {
+    font-family: "et-book bold";
+    src: url("https://edwardtufte.github.io/et-book/et-book/et-book-bold-line-figures/et-book-bold-line-figures.eot");
+    src: url("https://edwardtufte.github.io/et-book/et-book/et-book-bold-line-figures/et-book-bold-line-figures.eot?#iefix") format("embedded-opentype"), url("https://edwardtufte.github.io/et-book/et-book/et-book-bold-line-figures/et-book-bold-line-figures.woff") format("woff"), url("https://edwardtufte.github.io/et-book/et-book/et-book-bold-line-figures/et-book-bold-line-figures.ttf") format("truetype"), url("https://edwardtufte.github.io/et-book/et-book/et-book-bold-line-figures/et-book-bold-line-figures.svg#etbookromanosf") format("svg");
+    font-weight: bold;
+    font-style: normal
+  }
+
+/* Eléments de la page */
+
+body{
+    background-color: #FFFCF0;
+    font-family: 'LibreBaskerville - Regular';
+    margin: auto;
+    position: relative;
+    padding: 3.0rem 0.6rem 0;
+    width: 800px;
+    border: solid;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    border-radius: 2%;
+    padding: 2em;
+    text-align: justify;
+}
+
+h1, h2{
+    font-family: 'et-book bold';
+}
+
+h1{
+    font-size: 2.8em;
+    font-weight: 300;
+}
+
+h2{
+    font-size: 2.4em;
+    font-weight: 300;
+    font-variant: small-caps;
+    margin-bottom: 2%;
+}
+
+p {
+    font-family: et-book;
+    font-size: 1.5em;
+}
+
+li{
+    font-family: et-book;
+    font-size: 1.5em;
+}
+
+li:not(:last-child){
+    margin-bottom: 0.5rem;
+}
+
+ul{
+    margin: 1rem 0;
+    padding: 0 2em 0 2em;
+}
+
+a {
+    text-decoration: underline solid #EE8F90 6.3%;
+    text-underline-position: under;
+    color: black;
+}
+
+a:hover{
+    font-size: 1.2em;
+    color: #9C84B3;
+    text-decoration: underline solid #9C84B3;
+}
+
+blockquote{
+    background: #fffcf0;
+  border-left: 4px solid #EE8F90;
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+  quotes: "\201C""\201D""\2018""\2019";
+}
+
+blockquote:before {
+    color: #ccc;
+    content: open-quote;
+    font-size: 4em;
+    line-height: 0.1em;
+    margin-right: 0.25em;
+    vertical-align: -0.4em;
+}
+
+blockquote p {
+    display: inline;
+}
