@@ -36,12 +36,12 @@ body{
     border: solid;
     margin-top: 2em;
     margin-bottom: 2em;
-    border-radius: 2%;
+    border-radius: 1em;
     padding: 2em;
     text-align: justify;
 }
 
-h1, h2{
+h1, h2, .sumH2{
     font-family: 'et-book bold';
 }
 
@@ -50,7 +50,7 @@ h1{
     font-weight: 300;
 }
 
-h2{
+h2, .sumH2{
     font-size: 2.4em;
     font-weight: 300;
     font-variant: small-caps;
@@ -89,7 +89,7 @@ a:hover{
 }
 
 blockquote{
-    background: #fffcf0;
+  background: #fffcf0;
   border-left: 4px solid #EE8F90;
   margin: 1.5em 10px;
   padding: 0.5em 10px;
@@ -107,4 +107,12 @@ blockquote:before {
 
 blockquote p {
     display: inline;
+}
+
+summary{
+    padding: 15px;
+}
+summary:hover{
+    background-color: #ebebe4;
+    border-radius: 0.5em;
 }
