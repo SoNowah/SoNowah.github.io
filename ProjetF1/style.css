@@ -258,8 +258,8 @@ aside img
 }
 
 #img_logo{
-    position: absolute;
-    top: 28em;
+    position: relative;
+    top: 4em;
 }
 
 /* Footer */
@@ -452,7 +452,7 @@ footer h2 {
     aside{
         margin-right: 4em;
         margin-left: 4em;
-        padding-bottom: 8em;
+        padding-bottom: 4em;
     }
 
     aside p {
@@ -480,8 +480,8 @@ footer h2 {
     }
 
     #img_logo{
-        position: absolute;
-        top: 19.5em;
+        position: relative;
+        top: 2em;
     }
 
     #fleche_bulle{
