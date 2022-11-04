@@ -172,7 +172,7 @@ article, aside
 article
 {
     margin-right: 20px;
-    margin-left: 12em;
+    margin-left: 5em;
     flex: 3;
 }
 
@@ -205,7 +205,7 @@ aside
     padding: 10px;
     color: white;
     font-size: 0.9em;
-    margin-right: 13.5em;
+    margin-right: 5em;
 }
 
 #fleche_bulle
@@ -268,7 +268,8 @@ footer
 {
     display: flex;
     padding-top: 25px;
-    margin-left: 12em;
+    margin-left: 1em;
+    margin-right: 1em;
     max-width: 93.7em;
 }
 
